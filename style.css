@@ -23,6 +23,8 @@ body * {
 }
 
 #logo {
+  justify-content: center;
+
   text-align: center;
   max-width: 450px;
   max-height: 80px;
