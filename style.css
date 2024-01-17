@@ -27,12 +27,12 @@ body * {
   text-align: center;
   max-width: 450px;
   max-height: 80px;
-  margin-top: 120px;
+  margin-top: 110px;
 }
 
 #Caixa-texto-pg1 {
-  width: 100%;
   width: 360px;
+  max-width: 100%;
   height: 170px;
   border-radius: 12px;
   margin-top: 35px;
@@ -70,11 +70,11 @@ body * {
   max-width: 100%;
   border-radius: 6px;
   background-color: white;
-  margin-top: 10px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 0;
+  padding: 6px 0;
 }
 
 #texto-gp-vip {
@@ -86,7 +86,7 @@ body * {
 }
 
 #caixa-video {
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 #video {
