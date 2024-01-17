@@ -33,36 +33,25 @@ body * {
   width: 100%;
   width: 360px;
   height: 170px;
-  border-radius: 35px;
+  border-radius: 10px;
   margin-top: 40px;
   border: 3px solid #542482;
-  padding: 8px 30px;
+  padding: 5px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-#opacidade::after {
-  z-index: 1;
-  opacity: 0.5;
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 #texto1-pg1 {
   font-size: 15px;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: white;
   font-weight: 400;
   font-family: "Poppins";
   padding: 0 0 10px 0;
-}
-
-#texto2-pg1 {
-  font-size: 13px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  font-weight: 400;
-  font-family: "Poppins";
+  text-align: left;
 }
 
 #texto3-pg1 {
@@ -71,16 +60,25 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
+  text-align: left;
 }
 
 #caixa-gp-vip {
-  width: 350px;
+  width: 360px;
   max-width: 100%;
-  border-radius: 9px;
+  border-radius: 5px;
   background-color: white;
   margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-style: bold;
+}
+
+#texto-gp-vip {
+  color: rgb(43, 9, 65);
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 2px 0;
 }
