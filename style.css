@@ -86,7 +86,7 @@ body * {
 }
 
 #caixa-video {
-  margin-top: 17px;
+  margin-top: 30px;
 }
 
 #video {
@@ -104,6 +104,7 @@ body * {
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
+  margin-top: 30px;
 }
 
 #seu-guia {
@@ -143,6 +144,6 @@ body * {
 #empatou-e-green img {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
-  max-width: 80px;
+  max-width: 70px;
   max-height: 45px;
 }
