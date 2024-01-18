@@ -150,5 +150,5 @@ body * {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
   width: 100px;
-  height: 35;
+  height: auto;
 }
