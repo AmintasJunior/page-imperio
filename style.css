@@ -101,7 +101,7 @@ body * {
 
 #rodape-pg01 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -137,13 +137,13 @@ body * {
 #empatou-e-green {
   display: flex;
   align-items: left; /* Alinha a imagem e o texto verticalmente no centro */
-  padding: 5px; /* Adiciona um pouco de espaço dentro de cada conjunto */
+  padding: 0px; /* Adiciona um pouco de espaço dentro de cada conjunto */
 }
 
 #empatou-e-green img {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
-  max-width: 110px;
+  max-width: 100px;
   max-height: 45px;
   align-items: left;
 }
