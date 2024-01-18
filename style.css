@@ -109,46 +109,41 @@ body * {
 #seu-guia {
   display: flex;
   align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
-  flex-basis: calc(
-    100% / 3
-  ); /* Divide o espaço igualmente entre os 3 conjuntos */
   text-align: center; /* Centraliza o texto dentro de cada conjunto */
-  padding: 10px; /* Adiciona um pouco de espaço dentro de cada conjunto */
+  padding: 5px; /* Adiciona um pouco de espaço dentro de cada conjunto */
 }
 
 #seu-guia img {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
+  max-width: 130px;
+  max-height: 45px;
 }
 
 #partidas-analisadas {
   display: flex;
   align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
-  flex-basis: calc(
-    100% / 3
-  ); /* Divide o espaço igualmente entre os 3 conjuntos */
   text-align: center; /* Centraliza o texto dentro de cada conjunto */
-  padding: 10px; /* Adiciona um pouco de espaço dentro de cada conjunto */
+  padding: 5px; /* Adiciona um pouco de espaço dentro de cada conjunto */
 }
 
 #partidas-analisadas img {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
+  max-width: 130px;
+  max-height: 45px;
 }
 
 #empatou-e-green {
   display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
-  flex-basis: calc(
-    100% / 3
-  ); /* Divide o espaço igualmente entre os 3 conjuntos */
-  text-align: center; /* Centraliza o texto dentro de cada conjunto */
-  padding: 10px; /* Adiciona um pouco de espaço dentro de cada conjunto */
+  align-items: left; /* Alinha a imagem e o texto verticalmente no centro */
+  padding: 5px; /* Adiciona um pouco de espaço dentro de cada conjunto */
 }
 
 #empatou-e-green img {
   max-width: 100%; /* Garante que a imagem não exceda a largura de seu contêiner */
   height: auto; /* Mantém a proporção da imagem */
-  width: 100px;
-  height: auto;
+  max-width: 110px;
+  max-height: 45px;
+  align-items: left;
 }
