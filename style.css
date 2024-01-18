@@ -5,7 +5,10 @@
 }
 
 body {
-  background: url(./img/bg-1.png) no-repeat top center/cover;
+  background: url(./img/bg-1.png) top center/cover,
+    url(./img/bg-2.png) top center/cover, url(./img/bg-2.png) top center/cover;
+
+  background-attachment: scroll;
 }
 
 body * {
@@ -146,4 +149,54 @@ body * {
   height: auto; /* Mantém a proporção da imagem */
   max-width: 70px;
   max-height: 45px;
+}
+
+#titulo-pg2 {
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: left;
+  margin-top: 50px;
+}
+
+#txt-pg2 {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: left;
+  margin-top: 15px;
+}
+
+#pc {
+  max-width: 100%;
+  max-height: auto;
+  margin-top: 0;
+}
+
+#resultados {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 22px;
+}
+
+#resultados img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+}
+
+#alguns-resultados {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
 }
