@@ -198,5 +198,38 @@ body * {
   font-family: "Poppins";
   text-align: center;
   margin-top: 15px;
-  padding: 15px;
+}
+
+#camisa-pg3 {
+}
+
+#img-camisa {
+  margin-top: 35px;
+  padding: 10px;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+
+#txt-titulo-pg3 {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#caixa-busca-pg3 {
+  border: solid 2px #542482;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 5px;
 }
