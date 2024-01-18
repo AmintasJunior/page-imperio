@@ -212,19 +212,18 @@ body * {
 }
 
 #txt-titulo-pg3 {
-  font-size: 15px;
+  font-size: 18px;
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  text-align: left;
-  margin-top: 15px;
-  margin-left: 10px;
+  width: 100%;
+  margin-left: 25px;
 }
 
 #caixa-busca-pg3 {
   border: solid 2px #542482;
   border-radius: 10px;
-  width: 300px;
+  width: 360px;
   max-width: 100%;
   text-align: center;
   font-size: 17px;
