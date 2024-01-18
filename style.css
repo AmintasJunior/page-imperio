@@ -253,16 +253,16 @@ body * {
 
 #buton-pg3 {
   background: rgb(6, 183, 6);
-
   border-radius: 20px;
   width: 100%;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 15px;
-  margin-top: 15px;
-  font-size: 20px;
+  padding: 8px;
+  margin-top: 25px;
+  font-size: 18px;
   color: white;
   font-weight: 600;
   font-family: "Poppins";
