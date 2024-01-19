@@ -288,8 +288,30 @@ body * {
   font-weight: 400;
   font-family: "Poppins";
   width: 100%;
-  margin-top: 15px;
+  margin-top: 5px;
   text-align: center;
   width: 270px;
   max-width: 100%;
+}
+
+#titulo-pg4 img {
+  width: 300px;
+  max-width: 100%;
+}
+
+#txt-principal2-pg4 {
+  font-size: var(--txt-principal);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  width: 270px;
+  max-width: 100%;
+}
+
+#mockup-ipad-pg4 img {
+  width: 300px;
+  margin-top: 5px;
 }
