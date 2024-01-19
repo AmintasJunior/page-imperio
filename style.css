@@ -77,9 +77,9 @@ body * {
 #caixa-gp-vip {
   width: 360px;
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 10px;
   background-color: white;
-  margin-top: 5px;
+  margin-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,6 +165,7 @@ body * {
   font-family: "Poppins";
   text-align: left;
   margin-top: 35px;
+  line-height: 1.07;
 }
 
 #txt-pg2 {
@@ -257,18 +258,20 @@ body * {
 }
 
 #buton-pg3 {
-  background: rgb(6, 183, 6);
-  border-radius: 20px;
   width: 100%;
   max-width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px;
   margin-top: 25px;
   font-size: 18px;
   color: white;
   font-weight: 600;
   font-family: "Poppins";
+  background-image: linear-gradient(to right, #49115e, #581172);
+  color: white;
+  border: solid 0.5px rgb(100, 108, 212, 0.4);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 25px; /* Adjust the border-radius as needed */
 }
