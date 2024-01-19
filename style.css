@@ -265,7 +265,7 @@ body * {
   color: white;
   font-weight: 600;
   font-family: "Poppins";
-  background-image: linear-gradient(to right, #49115e, #581172);
+  background: linear-gradient(to right, #49115e, #581172);
   color: white;
   border: solid 0.5px rgb(100, 108, 212, 0.4);
   padding: 10px 20px;
