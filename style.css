@@ -267,7 +267,7 @@ body * {
   font-family: "Poppins";
   background: linear-gradient(to right, #49115e, #581172);
   color: white;
-  border: solid 0.5px rgb(100, 108, 212, 0.4);
+  border: solid 0.8px rgb(100, 108, 212, 0.4);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
