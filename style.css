@@ -39,7 +39,7 @@ body * {
   background-image: url("./img/bg-4.png"); /* Defina o segundo fundo desejado */
 }
 
-#background-4 {
+#background-5 {
   background-image: url("./img/bg-5.png"); /* Defina o segundo fundo desejado */
 }
 
@@ -230,7 +230,7 @@ body * {
 }
 
 #img-camisa {
-  max-width: 340px;
+  max-width: 300px;
   width: 100%;
   height: auto;
 }
