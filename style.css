@@ -10,15 +10,34 @@
 }
 
 body {
-  /*background: url(./img/bg-1.png) top center/cover,
-    url(./img/bg-2.png) top center/cover, url(./img/bg-2.png) top center/cover;
-
-  background-attachment: scroll;*/
-  background: url("./img/bg-2.png") no-repeat center/cover;
+  margin: 0;
+  padding: 0;
 }
-
 body * {
   font-family: "Poppins", sans-serif;
+}
+
+.background-div {
+  width: 100%;
+  height: 100vh; /* Altura da tela inteira */
+  background-size: cover;
+  background-position: center;
+}
+
+#background-1 {
+  background-image: url("./img/bg-1.png"); /* Defina o primeiro fundo desejado */
+}
+
+#background-2 {
+  background-image: url("./img/bg-2.png"); /* Defina o segundo fundo desejado */
+}
+
+#background-3 {
+  background-image: url("./img/bg-3.png"); /* Defina o segundo fundo desejado */
+}
+
+#background-4 {
+  background-image: url("./img/bg-4.png"); /* Defina o segundo fundo desejado */
 }
 
 #container {
