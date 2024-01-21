@@ -41,6 +41,7 @@ body * {
 
 #background-5 {
   background-image: url("./img/bg-5.png"); /* Defina o segundo fundo desejado */
+  background-position: left;
 }
 
 #container {
@@ -320,4 +321,34 @@ body * {
 #mockup-ipad-pg4 img {
   width: 300px;
   margin-top: 5px;
+}
+
+#caixa-txt {
+  margin-left: 125px;
+  border-top: 1px solid red;
+  width: 260px;
+  height: auto;
+  max-width: 100%;
+}
+
+#caixa-txt img {
+  width: 150px;
+}
+
+#txt-titulo-pg5 {
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins";
+  width: 100%;
+  line-height: 1.2;
+}
+
+#txt-principal-pg5 {
+  font-size: var(--txt-principal);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: left;
 }
