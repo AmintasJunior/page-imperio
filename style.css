@@ -44,6 +44,14 @@ body * {
   background-position: left;
 }
 
+#background-6 {
+  background-image: url("./img/bg-6.png"); /* Defina o segundo fundo desejado */
+}
+
+#background-7 {
+  background-image: url("./img/bg-7.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 360px;
   width: 100%;
@@ -319,20 +327,19 @@ body * {
 }
 
 #mockup-ipad-pg4 img {
-  width: 200px;
+  width: 180px;
   margin-top: 5px;
 }
 
 #caixa-txt {
   margin-left: 125px;
-  border-top: 1px solid red;
   width: 260px;
   height: auto;
   max-width: 100%;
 }
 
 #caixa-txt img {
-  width: 150px;
+  width: 200px;
 }
 
 #txt-titulo-pg5 {
@@ -351,4 +358,67 @@ body * {
   font-family: "Poppins";
   margin-top: 10px;
   text-align: left;
+}
+
+#logo-imperio-pg7{
+  width: 200px;
+  max-width: 100%;
+}
+
+#txt-titulo-pg7 {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-top: 30px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#mokup-iphone-pg7 {
+  width: 100px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+#recebeu-a-lista-pg7 {
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#img-blilhete-pg7 {
+  width: 280px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+#fez-a-sua-entrada-pg7 {
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#img-carimbo-pg7 {
+  width: 150px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+#txt-lucro {
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10 px;
+  text-align: center;
+  text-decoration: underline;
 }
