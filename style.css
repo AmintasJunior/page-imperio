@@ -52,6 +52,10 @@ body * {
   background-image: url("./img/bg-7.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-8 {
+  background-image: url("./img/bg-8.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 360px;
   width: 100%;
@@ -360,7 +364,7 @@ body * {
   text-align: left;
 }
 
-#logo-imperio-pg7{
+#logo-imperio-pg7 {
   width: 200px;
   max-width: 100%;
 }
@@ -418,7 +422,30 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  margin-top: 10 px;
+  margin-top: 10px;
   text-align: center;
   text-decoration: underline;
+}
+
+#img-campo-pg8 {
+  width: 300px;
+  max-width: 100%;
+}
+
+#txt-titulo-pg8 {
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 50px;
+  text-align: center;
+}
+
+#txt-principal-pg8 {
+  font-size: var(--txt-principal);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 30px;
+  text-align: center;
 }
