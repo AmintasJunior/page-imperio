@@ -60,6 +60,18 @@ body * {
   background-image: url("./img/bg-9.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-10 {
+  background-image: url("./img/bg-10.png"); /* Defina o segundo fundo desejado */
+}
+
+#background-11 {
+  background-image: url("./img/bg-11.png"); /* Defina o segundo fundo desejado */
+}
+
+#background-12 {
+  background-image: url("./img/bg-12.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 360px;
   width: 100%;
@@ -432,7 +444,7 @@ body * {
 }
 
 #img-campo-pg8 {
-  width: 300px;
+  width: 400px;
   max-width: 100%;
 }
 
@@ -468,17 +480,55 @@ body * {
   text-align: center;
 }
 
-#grafico-pg9 {
-  width: 400px;
-  max-width: 100%;
-
-}
-
 #txt-principal-pg9 {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
   font-family: "Poppins";
   margin-top: 15px;
+  text-align: center;
+}
+#grafico-pg9 {
+  width: 400px;
+  max-width: 100%;
+}
+
+#logo-imperio-pg10 {
+  width: 220px;
+  max-width: 100%;
+}
+
+#txt-feedbak-pg10 {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 40px;
+  text-align: center;
+}
+
+#txt-principal-pg10 {
+  font-size: var(--txt-principal);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: center;
+  width: 200px;
+  max-width: 100%;
+}
+
+.img-depoimento {
+  width: 360px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#txt-titulo-pg12 {
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10px;
   text-align: center;
 }
