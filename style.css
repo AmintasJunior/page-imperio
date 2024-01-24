@@ -56,6 +56,10 @@ body * {
   background-image: url("./img/bg-8.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-9 {
+  background-image: url("./img/bg-9.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 360px;
   width: 100%;
@@ -447,5 +451,34 @@ body * {
   font-weight: 400;
   font-family: "Poppins";
   margin-top: 30px;
+  text-align: center;
+}
+
+#img-camisa-frente-pg9 {
+  width: 250px;
+  max-width: 100%;
+}
+
+#txt-titulo-pg9 {
+  font-size: var(--txt-titulo);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: center;
+}
+
+#grafico-pg9 {
+  width: 400px;
+  max-width: 100%;
+
+}
+
+#txt-principal-pg9 {
+  font-size: var(--txt-principal);
+  color: white;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 15px;
   text-align: center;
 }
