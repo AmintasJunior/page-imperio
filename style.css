@@ -111,7 +111,7 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  text-align: left;
+  text-align: center;
   line-height: 1.2;
 }
 
@@ -121,7 +121,7 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  text-align: left;
+  text-align: center;
   margin-top: 30px;
 }
 
@@ -214,7 +214,7 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  text-align: left;
+  text-align: center;
 
   line-height: 1.07;
 }
@@ -225,7 +225,7 @@ body * {
   color: white;
   font-weight: 400;
   font-family: "Poppins";
-  text-align: left;
+  text-align: center;
   margin-top: 15px;
 }
 
@@ -377,7 +377,7 @@ body * {
   font-weight: 400;
   font-family: "Poppins";
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 #logo-imperio-pg7 {
@@ -541,6 +541,57 @@ body * {
   .background-div {
     height: auto;
     min-height: 100vh;
+  }
+
+  /* Responsividade*/
+  .background-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Seus backgrounds específicos aqui... */
+
+  #container {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Seus estilos específicos para elementos como #logo, #Caixa-texto-pg1, etc... */
+
+  /* Estilos de texto com ajuste de margem e padding */
+  #texto1-pg1,
+  #texto3-pg1,
+  #txt-pg2,
+  #txt-principal-pg3,
+  #txt-principal-pg4,
+  #txt-principal2-pg4,
+  #txt-titulo-pg5,
+  #txt-principal-pg5,
+  #txt-titulo-pg7,
+  #recebeu-a-lista-pg7,
+  #fez-a-sua-entrada-pg7,
+  #txt-lucro,
+  #txt-titulo-pg8,
+  #txt-principal-pg8,
+  #txt-titulo-pg9,
+  #txt-principal-pg9,
+  #txt-feedbak-pg10,
+  #txt-principal-pg10,
+  #txt-titulo-pg12 {
+    margin: 10px 0;
+    padding: 0 15px;
+    text-align: center;
   }
 
   #logo,
