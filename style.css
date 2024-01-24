@@ -532,3 +532,102 @@ body * {
   margin-top: 10px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  #container {
+    max-width: 95%;
+  }
+
+  .background-div {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #logo,
+  #pc,
+  #img-camisa,
+  #mockup-ipad-pg4,
+  #logo-imperio-pg7,
+  #mokup-iphone-pg7,
+  #img-blilhete-pg7,
+  #img-carimbo-pg7,
+  #img-campo-pg8,
+  #img-camisa-frente-pg9,
+  #grafico-pg9,
+  #logo-imperio-pg10,
+  .img-depoimento {
+    max-width: 100%;
+  }
+
+  #texto1-pg1,
+  #texto3-pg1,
+  #txt-pg2,
+  #txt-principal-pg3,
+  #txt-principal-pg4,
+  #txt-principal2-pg4,
+  #txt-titulo-pg5,
+  #txt-principal-pg5,
+  #txt-titulo-pg7,
+  #recebeu-a-lista-pg7,
+  #fez-a-sua-entrada-pg7,
+  #txt-lucro,
+  #txt-titulo-pg8,
+  #txt-principal-pg8,
+  #txt-titulo-pg9,
+  #txt-principal-pg9,
+  #txt-feedbak-pg10,
+  #txt-principal-pg10,
+  #txt-titulo-pg12 {
+    font-size: calc(var(--txt-principal) + 5px);
+  }
+
+  #txt-titulo-pg5,
+  #txt-titulo-pg7,
+  #txt-lucro,
+  #txt-titulo-pg8,
+  #txt-feedbak-pg10,
+  #txt-titulo-pg12 {
+    font-size: calc(var(--txt-titulo) + 5px);
+  }
+
+  #buton-pg3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #texto1-pg1,
+  #texto3-pg1,
+  #txt-pg2,
+  #txt-principal-pg3,
+  #txt-principal-pg4,
+  #txt-principal2-pg4,
+  #txt-titulo-pg5,
+  #txt-principal-pg5,
+  #txt-titulo-pg7,
+  #recebeu-a-lista-pg7,
+  #fez-a-sua-entrada-pg7,
+  #txt-lucro,
+  #txt-titulo-pg8,
+  #txt-principal-pg8,
+  #txt-titulo-pg9,
+  #txt-principal-pg9,
+  #txt-feedbak-pg10,
+  #txt-principal-pg10,
+  #txt-titulo-pg12 {
+    font-size: var(--txt-principal);
+  }
+
+  #txt-titulo-pg5,
+  #txt-titulo-pg7,
+  #txt-lucro,
+  #txt-titulo-pg8,
+  #txt-feedbak-pg10,
+  #txt-titulo-pg12 {
+    font-size: var(--txt-titulo);
+  }
+
+  #buton-pg3 {
+    font-size: 14px;
+  }
+}
