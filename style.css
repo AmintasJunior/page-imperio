@@ -7,6 +7,7 @@
 :root {
   --txt-titulo: 20px;
   --txt-principal: 15px;
+  --borda-caixa-preço: linear-gradient(0deg, #c82090 0%, #6a14d1 100%);
 }
 
 body * {
@@ -531,14 +532,13 @@ body * {
   font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
+  line-height: 1.1;
 }
 
 @media screen and (max-width: 768px) {
   #container {
     max-width: 95%;
   }
-
-
 
   #txt-titulo1-pg6 {
     font-size: var(--txt-principal);
@@ -555,8 +555,6 @@ body * {
     font-weight: 700;
     font-family: "Poppins";
     text-align: center;
-
-  
   }
 
   #img-produto-pg6 {
@@ -576,8 +574,6 @@ body * {
     max-width: 100%;
     align-items: center;
     padding: 10px;
-    
-
   }
 
   li {
@@ -595,13 +591,12 @@ body * {
     font-weight: 700;
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
     position: relative; /* Para posicionar o ícone de verificação */
-   padding: 3px 0 2px 12px;
+    padding: 3px 0 2px 12px;
   }
 
-  
-li::after {
-    content: '';
-    background-image: url('./img/Chek.png'); /* Substitua pela URL real da sua imagem */
+  li::after {
+    content: "";
+    background-image: url("./img/Chek.png"); /* Substitua pela URL real da sua imagem */
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -610,3 +605,111 @@ li::after {
     width: 35px; /* Largura da imagem */
     height: 35px; /* Altura da imagem */
   }
+
+  .price-box {
+    background-image: linear-gradient(
+      0deg,
+      rgba(71, 38, 91, 0) 15%,
+      rgba(71, 38, 91, 0.611764705882353) 84%,
+      rgba(71, 38, 91, 0.611764705882353) 85%
+    );
+    border: 1px solid #c92091;
+    /color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento dentro da caixa */
+    width: 300px; /* Largura da caixa */
+    height: 280px;
+    font-family: "popins"; /* Fonte do texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    position: relative; /* Para posicionamento absoluto dos elementos internos */
+    margin-top: 50px;
+  }
+  .price-tag {
+    font-size: 50px; /* Tamanho da fonte para o preço */
+    font-weight: 800;
+    font-family: "Popins";
+    color: #ffff;
+  }
+
+  #centes {
+    font-size: 30px; /* Tamanho da fonte para o preço */
+    font-weight: 800;
+    font-family: "Popins";
+    color: #ffff;
+  }
+  .discount {
+    letter-spacing: 2.5px;
+    width: 200px;
+    max-width: 100%;
+    font-size: 13px; /* Tamanho da fonte para a economia */
+    font-family: "Popins";
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #9560b8;
+    border-radius: 25px; /* Bordas arredondadas para o destaque */
+    display: inline-block; /* Para aplicar padding e bordas */
+    padding: 1.5px 15px; /* Espaçamento dentro do destaque */
+    position: absolute; /* Posicionamento absoluto */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
+  }
+  .crossed-price {
+    text-decoration: line-through; /* Riscado para o preço anterior */
+    font-size: 15px; /* Tamanho da fonte para o preço anterior */
+    font-family: "popins";
+    font-weight: 500;
+    color: #ffff;
+  }
+
+  #mes {
+    font-size: 35px; /* Tamanho da fonte para o preço anterior */
+    font-family: "popins";
+    font-weight: 800;
+    color: #ffff;
+    margin-top: 10px;
+  }
+
+  #txt-complementar-pg6 {
+    font-size: 15px; /* Tamanho da fonte para o preço anterior */
+    font-family: "popins";
+    font-weight: 500;
+    color: #ffff;
+  }
+
+  .best-choice {
+    background-image: linear-gradient(
+      0deg,
+      #c82090 0%,
+      #6a14d1 100%
+    ); /* Cor de fundo para a etiqueta 'Melhor Escolha' */
+    color: white; /* Cor do texto para a etiqueta */
+    padding: 5px 15px; /* Espaçamento dentro da etiqueta */
+    border-radius: 25px; /* Bordas arredondadas para a etiqueta */
+    position: absolute; /* Posicionamento absoluto */
+    top: -15px; /* Posicionar acima da caixa de preço */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
+    font-size: 14px; /* Tamanho da fonte para a etiqueta */
+    font-weight: 600; /* Negrito para a etiqueta */
+    font-family: "Poppins";
+  }
+
+  #buton-pg12 {
+    width: 240px;
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    font-family: "Poppins";
+    background-image: linear-gradient(90deg, #3b1255 0%, #571283 100%);
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px; /* Adjust the border-radius as needed */
+  }
+}
