@@ -538,147 +538,75 @@ body * {
     max-width: 95%;
   }
 
-  .background-div {
-    height: auto;
-    min-height: 100vh;
-  }
 
-  /* Responsividade*/
-  .background-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
 
-  /* Seus backgrounds específicos aqui... */
-
-  #container {
-    max-width: 360px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Seus estilos específicos para elementos como #logo, #Caixa-texto-pg1, etc... */
-
-  /* Estilos de texto com ajuste de margem e padding */
-  #texto1-pg1,
-  #texto3-pg1,
-  #txt-pg2,
-  #txt-principal-pg3,
-  #txt-principal-pg4,
-  #txt-principal2-pg4,
-  #txt-titulo-pg5,
-  #txt-principal-pg5,
-  #txt-titulo-pg7,
-  #recebeu-a-lista-pg7,
-  #fez-a-sua-entrada-pg7,
-  #txt-lucro,
-  #txt-titulo-pg8,
-  #txt-principal-pg8,
-  #txt-titulo-pg9,
-  #txt-principal-pg9,
-  #txt-feedbak-pg10,
-  #txt-principal-pg10,
-  #txt-titulo-pg12 {
-    margin: 10px 0;
-    padding: 0 15px;
+  #txt-titulo1-pg6 {
+    font-size: var(--txt-principal);
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-top: 10px;
     text-align: center;
   }
 
-  #logo,
-  #pc,
-  #img-camisa,
-  #mockup-ipad-pg4,
-  #logo-imperio-pg7,
-  #mokup-iphone-pg7,
-  #img-blilhete-pg7,
-  #img-carimbo-pg7,
-  #img-campo-pg8,
-  #img-camisa-frente-pg9,
-  #grafico-pg9,
-  #logo-imperio-pg10,
-  .img-depoimento {
+  #txt-titulo2-pg6 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+
+  
+  }
+
+  #img-produto-pg6 {
+    width: 350px;
     max-width: 100%;
+    margin-top: 25px;
   }
 
-  #texto1-pg1,
-  #texto3-pg1,
-  #txt-pg2,
-  #txt-principal-pg3,
-  #txt-principal-pg4,
-  #txt-principal2-pg4,
-  #txt-titulo-pg5,
-  #txt-principal-pg5,
-  #txt-titulo-pg7,
-  #recebeu-a-lista-pg7,
-  #fez-a-sua-entrada-pg7,
-  #txt-lucro,
-  #txt-titulo-pg8,
-  #txt-principal-pg8,
-  #txt-titulo-pg9,
-  #txt-principal-pg9,
-  #txt-feedbak-pg10,
-  #txt-principal-pg10,
-  #txt-titulo-pg12 {
-    font-size: calc(var(--txt-principal) + 5px);
+  #img-logo-pg6 {
+    width: 150px;
+    max-width: 100%;
+    margin-top: 20px;
   }
 
-  #txt-titulo-pg5,
-  #txt-titulo-pg7,
-  #txt-lucro,
-  #txt-titulo-pg8,
-  #txt-feedbak-pg10,
-  #txt-titulo-pg12 {
-    font-size: calc(var(--txt-titulo) + 5px);
+  ul {
+    width: 300px;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+    
+
   }
 
-  #buton-pg3 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #texto1-pg1,
-  #texto3-pg1,
-  #txt-pg2,
-  #txt-principal-pg3,
-  #txt-principal-pg4,
-  #txt-principal2-pg4,
-  #txt-titulo-pg5,
-  #txt-principal-pg5,
-  #txt-titulo-pg7,
-  #recebeu-a-lista-pg7,
-  #fez-a-sua-entrada-pg7,
-  #txt-lucro,
-  #txt-titulo-pg8,
-  #txt-principal-pg8,
-  #txt-titulo-pg9,
-  #txt-principal-pg9,
-  #txt-feedbak-pg10,
-  #txt-principal-pg10,
-  #txt-titulo-pg12 {
-    font-size: var(--txt-principal);
+  li {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #a189b0;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #28093c;
+    text-align: left;
+    margin: 20px 0;
+    font-weight: 700;
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    position: relative; /* Para posicionar o ícone de verificação */
+   padding: 3px 0 2px 12px;
   }
 
-  #txt-titulo-pg5,
-  #txt-titulo-pg7,
-  #txt-lucro,
-  #txt-titulo-pg8,
-  #txt-feedbak-pg10,
-  #txt-titulo-pg12 {
-    font-size: var(--txt-titulo);
+  
+li::after {
+    content: '';
+    background-image: url('./img/Chek.png'); /* Substitua pela URL real da sua imagem */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -5px; /* Distância da direita */
+    top: -2; /* Alinhar ao topo */
+    width: 35px; /* Largura da imagem */
+    height: 35px; /* Altura da imagem */
   }
-
-  #buton-pg3 {
-    font-size: 14px;
-  }
-}
