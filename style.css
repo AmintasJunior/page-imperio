@@ -14,16 +14,6 @@ body * {
   font-family: "Poppins", sans-serif;
 }
 
-.background-div {
-  display: flex; /* Torna o conteúdo flexível */
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
 #background-1 {
   background-image: url("./img/bg-1.png"); /* Defina o primeiro fundo desejado */
 }
@@ -86,7 +76,7 @@ body * {
 #logo {
   justify-content: center;
   text-align: center;
-  max-width: 450px;
+  max-width: 360px;
   max-height: 80px;
   margin-top: 95px;
 }
