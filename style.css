@@ -74,7 +74,7 @@ body * {
 }
 
 #container {
-  max-width: 360px;
+  max-width: 366px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -445,7 +445,7 @@ body * {
 }
 
 #img-campo-pg8 {
-  width: 400px;
+  width: 366px;
   max-width: 100%;
 }
 
@@ -558,7 +558,7 @@ body * {
   }
 
   #img-produto-pg6 {
-    width: 350px;
+    width: 340px;
     max-width: 100%;
     margin-top: 25px;
   }
