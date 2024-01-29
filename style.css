@@ -14,6 +14,16 @@ body * {
   font-family: "Poppins", sans-serif;
 }
 
+.background-div {
+  display: flex; /* Torna o conteúdo flexível */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
 #background-1 {
   background-image: url("./img/bg-1.png"); /* Defina o primeiro fundo desejado */
 }
@@ -64,7 +74,7 @@ body * {
 }
 
 #container {
-  max-width: 366px;
+  max-width: 350px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -76,7 +86,7 @@ body * {
 #logo {
   justify-content: center;
   text-align: center;
-  max-width: 360px;
+  max-width: 450px;
   max-height: 80px;
   margin-top: 95px;
 }
@@ -101,7 +111,6 @@ body * {
   letter-spacing: 0px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   text-align: center;
   line-height: 1.2;
 }
@@ -111,7 +120,6 @@ body * {
   letter-spacing: 0px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   text-align: center;
   margin-top: 30px;
 }
@@ -130,7 +138,6 @@ body * {
 
 #texto-gp-vip {
   color: rgb(43, 9, 65);
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 17px;
   text-decoration: none;
@@ -204,7 +211,6 @@ body * {
   letter-spacing: 0px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   text-align: center;
 
   line-height: 1.07;
@@ -215,7 +221,6 @@ body * {
   letter-spacing: 0px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   text-align: center;
   margin-top: 15px;
 }
@@ -244,7 +249,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 300;
-  font-family: "Poppins";
   text-align: center;
   margin-top: 20px;
 }
@@ -259,7 +263,6 @@ body * {
   font-size: var(--txt-titulo);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   width: 100%;
   margin-left: 25px;
 }
@@ -276,7 +279,6 @@ body * {
   font-size: var(--txt-titulo);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   padding: 0 10px 0 25px;
 }
 
@@ -288,7 +290,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   width: 100%;
   margin-top: 25px;
   text-align: center;
@@ -301,7 +302,6 @@ body * {
   font-size: 18px;
   color: white;
   font-weight: 600;
-  font-family: "Poppins";
   background: linear-gradient(to right, #49115e, #581172);
   color: white;
   border: solid 0.8px rgb(100, 108, 212, 0.4);
@@ -323,7 +323,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 5px;
   text-align: center;
 }
@@ -332,7 +331,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
 }
@@ -357,7 +355,6 @@ body * {
   font-size: 23px;
   color: white;
   font-weight: 700;
-  font-family: "Poppins";
   width: 100%;
   line-height: 1.2;
 }
@@ -366,7 +363,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
 }
@@ -380,7 +376,6 @@ body * {
   font-size: 25px;
   color: white;
   font-weight: 600;
-  font-family: "Poppins";
   margin-top: 30px;
   text-align: center;
   line-height: 1.2;
@@ -396,7 +391,6 @@ body * {
   font-size: 25px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 5px;
   text-align: center;
   text-decoration: underline;
@@ -412,7 +406,6 @@ body * {
   font-size: 25px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
   text-decoration: underline;
@@ -428,14 +421,13 @@ body * {
   font-size: 25px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
   text-decoration: underline;
 }
 
 #img-campo-pg8 {
-  width: 366px;
+  width: 400px;
   max-width: 100%;
 }
 
@@ -443,7 +435,6 @@ body * {
   font-size: 30px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 20px;
   text-align: center;
 }
@@ -452,7 +443,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 30px;
   text-align: center;
 }
@@ -466,7 +456,6 @@ body * {
   font-size: var(--txt-titulo);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
 }
@@ -475,7 +464,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 15px;
   text-align: center;
 }
@@ -493,7 +481,6 @@ body * {
   font-size: 50px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 40px;
   text-align: center;
 }
@@ -502,7 +489,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
   width: 200px;
@@ -519,7 +505,6 @@ body * {
   font-size: 40px;
   color: white;
   font-weight: 400;
-  font-family: "Poppins";
   margin-top: 10px;
   text-align: center;
   line-height: 1.1;
@@ -534,7 +519,6 @@ body * {
     font-size: var(--txt-principal);
     color: white;
     font-weight: 400;
-    font-family: "Poppins";
     margin-top: 10px;
     text-align: center;
   }
@@ -543,12 +527,11 @@ body * {
     font-size: 40px;
     color: white;
     font-weight: 700;
-    font-family: "Poppins";
     text-align: center;
   }
 
   #img-produto-pg6 {
-    width: 340px;
+    width: 350px;
     max-width: 100%;
     margin-top: 25px;
   }
@@ -608,7 +591,7 @@ body * {
     padding: 20px; /* Espaçamento dentro da caixa */
     width: 300px; /* Largura da caixa */
     height: 260px;
-    font-family: "popins"; /* Fonte do texto */
+
     border-radius: 10px; /* Bordas arredondadas */
     text-align: center; /* Alinhamento do texto */
     position: relative; /* Para posicionamento absoluto dos elementos internos */
@@ -617,14 +600,13 @@ body * {
   .price-tag {
     font-size: 50px; /* Tamanho da fonte para o preço */
     font-weight: 800;
-    font-family: "Popins";
+
     color: #ffff;
   }
 
   #centes {
     font-size: 30px; /* Tamanho da fonte para o preço */
     font-weight: 800;
-    font-family: "Popins";
     color: #ffff;
   }
   .discount {
@@ -632,7 +614,6 @@ body * {
     width: 200px;
     max-width: 100%;
     font-size: 13px; /* Tamanho da fonte para a economia */
-    font-family: "Popins";
     color: #ffff;
     font-weight: 500;
     border-radius: 15px;
@@ -647,14 +628,12 @@ body * {
   .crossed-price {
     text-decoration: line-through; /* Riscado para o preço anterior */
     font-size: 15px; /* Tamanho da fonte para o preço anterior */
-    font-family: "popins";
     font-weight: 500;
     color: #ffff;
   }
 
   #mes {
     font-size: 35px; /* Tamanho da fonte para o preço anterior */
-    font-family: "popins";
     font-weight: 800;
     color: #ffff;
     margin-top: 10px;
@@ -662,7 +641,6 @@ body * {
 
   #txt-complementar-pg6 {
     font-size: 15px; /* Tamanho da fonte para o preço anterior */
-    font-family: "popins";
     font-weight: 500;
     color: #ffff;
   }
@@ -682,7 +660,6 @@ body * {
     transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
     font-size: 14px; /* Tamanho da fonte para a etiqueta */
     font-weight: 600; /* Negrito para a etiqueta */
-    font-family: "Poppins";
   }
 
   #buton-pg12 {
@@ -692,7 +669,6 @@ body * {
     font-size: 18px;
     color: white;
     font-weight: 500;
-    font-family: "Poppins";
     background-image: linear-gradient(90deg, #3b1255 0%, #571283 100%);
     color: white;
     padding: 6px 10px;
