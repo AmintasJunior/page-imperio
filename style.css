@@ -341,14 +341,13 @@ body * {
 }
 
 #caixa-txt {
-  margin-left: 125px;
-  width: 260px;
-  height: auto;
+  margin-left: 115px;
+  width: 250px;
   max-width: 100%;
 }
 
 #caixa-txt img {
-  width: 200px;
+  width: 180px;
 }
 
 #txt-titulo-pg5 {
@@ -364,7 +363,7 @@ body * {
   color: white;
   font-weight: 400;
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 #logo-imperio-pg7 {
@@ -590,7 +589,8 @@ body * {
     /color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento dentro da caixa */
     width: 300px; /* Largura da caixa */
-    height: 260px;
+  
+
 
     border-radius: 10px; /* Bordas arredondadas */
     text-align: center; /* Alinhamento do texto */
