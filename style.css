@@ -81,6 +81,7 @@ body * {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 #logo {
@@ -537,7 +538,7 @@ body * {
 
   #img-logo-pg6 {
     width: 150px;
-    max-width: 100%;
+
     margin-top: 20px;
   }
 
@@ -589,8 +590,6 @@ body * {
     /color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento dentro da caixa */
     width: 300px; /* Largura da caixa */
-  
-
 
     border-radius: 10px; /* Bordas arredondadas */
     text-align: center; /* Alinhamento do texto */
