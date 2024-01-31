@@ -546,14 +546,14 @@ body * {
     margin-top: 20px;
   }
 
-  ul {
+  #cx-lista-pg6 {
     width: 330px;
     max-width: 100%;
     align-items: center;
     padding: 10px;
   }
 
-  li {
+  #lista-pg6 {
     list-style: none;
     align-items: center;
     justify-content: space-between;
@@ -571,7 +571,7 @@ body * {
     padding: 3px 0 2px 12px;
   }
 
-  li::after {
+  #lista-pg6:after {
     content: "";
     background-image: url("./img/Chek.png"); /* Substitua pela URL real da sua imagem */
     background-size: contain;
@@ -714,5 +714,29 @@ body * {
     text-align: center; /* Alinhamento do texto */
     position: relative; /* Para posicionamento absoluto dos elementos internos */
     margin-top: 50px;
+  }
+
+  #txt-principal-pg13 {
+    font-size: var(--txt-titulo);
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  #cx-lista-preço-pg13 {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  #lista-preço-pg13 {
+    color: #750db9;
+    font-weight: 400;
+    font-size: var(--txt-titulo);
+  }
+
+  #lista-preço-pg13 span {
+    color: #fff;
+    font-size: var(--txt-principal);
   }
 }
