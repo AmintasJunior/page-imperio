@@ -73,6 +73,10 @@ body * {
   background-image: url("./img/bg-12.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-13 {
+  background-image: url("./img/bg-13.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 350px;
   width: 100%;
@@ -589,7 +593,7 @@ body * {
     border: 1px solid #c92091;
     /color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento dentro da caixa */
-    width: 300px; /* Largura da caixa */
+    width: 330px; /* Largura da caixa */
 
     border-radius: 10px; /* Bordas arredondadas */
     text-align: center; /* Alinhamento do texto */
@@ -676,5 +680,39 @@ body * {
     display: inline-block;
     cursor: pointer;
     border-radius: 30px; /* Adjust the border-radius as needed */
+  }
+
+  .price-box-mensal {
+    background-image: linear-gradient(
+      0deg,
+      rgba(71, 38, 91, 0) 15%,
+      rgba(71, 38, 91, 0.611764705882353) 84%,
+      rgba(71, 38, 91, 0.611764705882353) 85%
+    );
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento dentro da caixa */
+    width: 330px; /* Largura da caixa */
+
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    position: relative; /* Para posicionamento absoluto dos elementos internos */
+    margin-top: 50px;
+  }
+
+  .price-box-trimestral {
+    background-image: linear-gradient(
+      0deg,
+      rgba(71, 38, 91, 0) 15%,
+      rgba(71, 38, 91, 0.611764705882353) 84%,
+      rgba(71, 38, 91, 0.611764705882353) 85%
+    );
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento dentro da caixa */
+    width: 330px; /* Largura da caixa */
+
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    position: relative; /* Para posicionamento absoluto dos elementos internos */
+    margin-top: 50px;
   }
 }
