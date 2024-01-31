@@ -77,6 +77,10 @@ body * {
   background-image: url("./img/bg-13.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-14 {
+  background-image: url("./img/bg-14.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 350px;
   width: 100%;
@@ -727,6 +731,7 @@ body * {
   #cx-lista-preço-pg13 {
     text-align: left;
     margin-top: 15px;
+    margin-bottom: 400px;
   }
 
   #lista-preço-pg13 {
@@ -739,4 +744,13 @@ body * {
     color: #fff;
     font-size: var(--txt-principal);
   }
+
+  #garantia-pg14{
+    width: 250px;
+    max-width: 100%;
+
+  }
+
+
+
 }
