@@ -797,7 +797,7 @@ body * {
     width: 280px;
   }
   #rede-social-pg15 {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -809,7 +809,14 @@ body * {
     width: 45px;
     border-radius: 100px;
     padding: 8px;
+  }
 
-    
+  #txt-copy-pg15 {
+    width: 180px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
   }
 }
