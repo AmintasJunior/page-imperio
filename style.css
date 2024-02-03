@@ -801,10 +801,13 @@ body * {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 40px;
+    gap: 15px;
   }
 
   #rede-social-pg15 img {
-    border: 1px solid red;
-    border-radius: 15px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 8px;
   }
 }
