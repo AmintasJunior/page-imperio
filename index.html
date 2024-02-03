@@ -194,7 +194,7 @@
         </div>
         <img id="img-blilhete-pg7" src="./img/bilhete-bet365.png" alt="" />
         <div id="fez-a-sua-entrada-pg7">
-          <span id="negrito">2.</span> Recebeu a Lista
+          <span id="negrito">2.</span> Fez a sua entrada
         </div>
         <img id="img-carimbo-pg7" src="./img/carimbo-pg7.png" alt="" />
         <div id="txt-lucro"><span id="negrito">3.</span> LUCROU!</div>
@@ -290,6 +290,38 @@
           <li id="lista-preço-pg13"><span>Gestão Estatégica</span></li>
           <li id="lista-preço-pg13"><span>Alta Assertividade</span></li>
         </ul>
+        <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">Quais são as formas de pagamento aceitas para a assinatura da consultoria? </button>
+          <div class="faq-answer">
+            Aceitamos várias formas de pagamento, incluindo cartões de crédito e Débito, PIX, Boleto e outras opções de pagamento eletrônico. As opções disponíveis serão fornecidas durante o processo de assinatura.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Qual é o seu animal favorito?</button>
+          <div class="faq-answer">
+            Meu animal favorito é o gato.
+          </div>
+        </div>
+        <!-- Adicione mais perguntas conforme necessário -->
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var faqQuestions = document.querySelectorAll('.faq-question');
+
+          faqQuestions.forEach(function(question) {
+            question.addEventListener('click', function() {
+              var answer = this.nextElementSibling;
+              if (answer.style.display === "block") {
+                answer.style.display = "none";
+              } else {
+                answer.style.display = "block";
+              }
+            });
+          });
+        });
+        </script>
+
     </div>
   </div>
 <div class="background-div" id="background-14">
@@ -304,7 +336,7 @@
 </div>
 
 <div class="background-div" id="background-15">
-  <div id="container-pg5">
+  <div id="container">
     <img id="logo-imperio-pg15" src="./img/LOGO Império dos Empates 06.png" alt="">
     <div id="txt-principal-pg15">Os resultados referente ao conteúdo do nosso produto são avaliados e comprovados por nossos clientes. Não garantimos resultados uma vez que se trata de um mercado de renda variável.</div>
     <div id="rede-social-pg15">
