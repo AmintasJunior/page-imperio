@@ -797,7 +797,7 @@ body * {
     width: 280px;
   }
   #rede-social-pg15 {
-    margin-top: 25px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -806,9 +806,9 @@ body * {
 
   #rede-social-pg15 img {
     background-color: white;
-    width: 35px;
+    width: 45px;
     border-radius: 100px;
-    padding: 10px;
+    padding: 8px;
 
     
   }
