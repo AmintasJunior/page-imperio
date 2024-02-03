@@ -807,9 +807,11 @@ body * {
 
   #rede-social-pg15 img {
     background-color: white;
-    width: 45px;
+    width: 35px;
     border-radius: 100px;
-    padding:  10px;
+    padding:  8px;
+    align-items: center;
+    justify-content: center;
     
   }
 }
