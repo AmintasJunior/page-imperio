@@ -81,6 +81,10 @@ body * {
   background-image: url("./img/bg-14.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-15 {
+  background-image: url("./img/bg-15.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 350px;
   width: 100%;
@@ -745,12 +749,54 @@ body * {
     font-size: var(--txt-principal);
   }
 
-  #garantia-pg14{
+  #garantia-pg14 {
     width: 250px;
     max-width: 100%;
-
   }
 
+  #txt-principal-garantia-pg14 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: -90px;
+    margin-right: 35px;
+    width: 120px;
+    letter-spacing: 2px;
+  }
 
+  #txt-titulo-pg4 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: left;
+    width: 200px;
+    margin-top: 25px;
+  }
 
+  #txt-principal-pg14 {
+    width: 310px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  #logo-imperio-pg15 {
+    width: 280px;
+  }
+
+  #txt-principal-pg15 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 25px;
+    width: 280px;
+  }
+  #rede-social-pg15{
+
+  }
 }
