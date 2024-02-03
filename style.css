@@ -800,8 +800,7 @@ body * {
     margin-top: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 60px;
+    justify-content: space-between;
     gap: 15px;
   }
 
@@ -809,9 +808,8 @@ body * {
     background-color: white;
     width: 35px;
     border-radius: 100px;
-    padding:  8px;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
+
     
   }
 }
