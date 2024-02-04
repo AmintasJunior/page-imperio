@@ -812,19 +812,21 @@ body * {
 
   .faq-answer {
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     display: none;
     padding: 10px;
     margin-bottom: 8px;
-    margin-top: -5px;
+    margin-top: -6px;
+    border-radius: 5px;
     background-image: linear-gradient(
       0deg,
-      rgba(71, 38, 91, 0) 15%,
+      rgba(100, 52, 129, 0) 15%,
       rgba(71, 38, 91, 0.611764705882353) 84%,
       rgba(71, 38, 91, 0.611764705882353) 85%
     );
-    border-left: 6px solid #581172;
+    border-top: 1px solid #c92091;
+    border-left: 6px solid #c92091;
   }
 
   /* Estilo opcional para adicionar um pouco de animação */
