@@ -803,7 +803,7 @@ body * {
     font-size: 13px;
     text-align: left;
     border: none;
-    background-color: rgb(255, 255, 255, 0.05);
+    background-color: rgb(255, 255, 255, 0.06);
     border-radius: 5px;
     color: white;
     cursor: pointer;
@@ -813,11 +813,11 @@ body * {
   .faq-answer {
     color: #fff;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
     display: none;
     padding: 10px;
     margin-bottom: 8px;
-    margin-top: -6px;
+    margin-top: -5px;
     border-radius: 5px;
     background-image: linear-gradient(
       0deg,
@@ -825,7 +825,7 @@ body * {
       rgba(71, 38, 91, 0.611764705882353) 84%,
       rgba(71, 38, 91, 0.611764705882353) 85%
     );
-    border-top: 1px solid #c92091;
+
     border-left: 6px solid #c92091;
   }
 
