@@ -85,6 +85,10 @@ body * {
   background-image: url("./img/bg-15.png"); /* Defina o segundo fundo desejado */
 }
 
+#background-16 {
+  background-image: url("./img/bg-16.png"); /* Defina o segundo fundo desejado */
+}
+
 #container {
   max-width: 350px;
   width: 100%;
@@ -732,47 +736,10 @@ body * {
     margin-top: 20px;
   }
 
-  .faq-container {
-    margin: 20px;
-  }
-
-  .faq-question {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    text-align: left;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 5px;
-  }
-
-  .faq-answer {
-    display: none;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-left: 3px solid #007bff;
-  }
-
-  /* Estilo opcional para adicionar um pouco de animação */
-  .faq-answer.show {
-    display: block;
-    animation: fadeIn 0.5s;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
   #cx-lista-preço-pg13 {
     text-align: left;
     margin-top: 15px;
+    margin-bottom: 380px;
   }
 
   #lista-preço-pg13 {
@@ -820,12 +787,66 @@ body * {
     color: #fff;
     font-size: 18px;
   }
+  #txt-titulo-pg15 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+  }
 
-  #logo-imperio-pg15 {
+  .faq-container {
+    margin: 20px 10px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-align: left;
+    border: none;
+    background-color: rgb(255, 255, 255, 0.05);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+
+  .faq-answer {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: -5px;
+    background-image: linear-gradient(
+      0deg,
+      rgba(71, 38, 91, 0) 15%,
+      rgba(71, 38, 91, 0.611764705882353) 84%,
+      rgba(71, 38, 91, 0.611764705882353) 85%
+    );
+    border-left: 6px solid #581172;
+  }
+
+  /* Estilo opcional para adicionar um pouco de animação */
+  .faq-answer.show {
+    display: block;
+    animation: fadeIn 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #logo-imperio-pg16 {
     width: 280px;
   }
 
-  #txt-principal-pg15 {
+  #txt-principal-pg16 {
     text-align: center;
     color: #fff;
     font-weight: 400;
@@ -833,7 +854,7 @@ body * {
     margin-top: 25px;
     width: 280px;
   }
-  #rede-social-pg15 {
+  #rede-social-pg16 {
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -841,14 +862,14 @@ body * {
     gap: 15px;
   }
 
-  #rede-social-pg15 img {
+  #rede-social-pg16 img {
     background-color: white;
     width: 45px;
     border-radius: 100px;
     padding: 8px;
   }
 
-  #txt-copy-pg15 {
+  #txt-copy-pg16 {
     width: 200px;
     color: #fff;
     font-size: 13px;
