@@ -684,7 +684,7 @@ body * {
     font-size: 18px;
     color: white;
     font-weight: 500;
-    background-image: linear-gradient(90deg, #3b1255 0%, #571283 100%);
+    background-image: linear-gradient(90deg, #391151 0%, #571283 100%);
     color: white;
     padding: 6px 10px;
     text-align: center;
@@ -803,7 +803,7 @@ body * {
     font-size: 13px;
     text-align: left;
     border: none;
-    background-color: rgb(255, 255, 255, 0.06);
+    background-color: rgba(255, 255, 255, 0.08);
     border-radius: 5px;
     color: white;
     cursor: pointer;
