@@ -900,14 +900,14 @@ body * {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 12px;
 }
 
 #rede-social-pg16 img {
   background-color: white;
   width: 45px;
   border-radius: 100px;
-  padding: 8px;
+  padding: 10px;
 }
 
 #txt-copy-pg16 {
@@ -915,7 +915,7 @@ body * {
   color: #fff;
   font-size: 13px;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   justify-content: center;
   margin-bottom: 50px;
