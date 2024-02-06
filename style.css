@@ -19,7 +19,6 @@ body * {
   align-items: center; /* Centraliza verticalmente */
   justify-content: center; /* Centraliza horizontalmente */
   width: 100%;
-
   background-size: cover;
   background-position: center;
 }
@@ -180,13 +179,14 @@ body * {
   align-items: center;
   flex-wrap: nowrap;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #seu-guia {
   display: flex;
   align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
   text-align: center; /* Centraliza o texto dentro de cada conjunto */
-  padding: 5px; /* Adiciona um pouco de espaço dentro de cada conjunto */
+  padding: 5px;
 }
 
 #seu-guia img {
@@ -229,7 +229,7 @@ body * {
   color: white;
   font-weight: 400;
   text-align: center;
-
+  margin-top: 20px;
   line-height: 1.07;
 }
 
@@ -268,12 +268,14 @@ body * {
   font-weight: 300;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #img-camisa {
   max-width: 300px;
   width: 100%;
   height: auto;
+  margin-top: 20px;
 }
 
 #txt-titulo-pg3 {
@@ -321,13 +323,13 @@ body * {
   font-weight: 600;
   background: linear-gradient(to right, #49115e, #581172);
   color: white;
-  border: solid 0.8px rgb(100, 108, 212, 0.4);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   border-radius: 25px; /* Adjust the border-radius as needed */
+  margin-bottom: 30px;
 }
 
 #titulo-pg4 img {
@@ -350,17 +352,14 @@ body * {
   font-weight: 400;
   margin-top: 10px;
   text-align: center;
-}
-
-#mockup-ipad-pg4 img {
-  width: 180px;
-  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 #caixa-txt {
   margin-left: 115px;
   width: 250px;
   max-width: 100%;
+  margin-top: 80px;
 }
 
 #caixa-txt img {
@@ -381,11 +380,79 @@ body * {
   font-weight: 400;
   margin-top: 10px;
   text-align: left;
+  margin-bottom: 200px;
+}
+
+#txt-titulo1-pg6 {
+  font-size: var(--txt-titulo);
+  color: white;
+  font-weight: 400;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#txt-titulo2-pg6 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#img-produto-pg6 {
+  width: 350px;
+  max-width: 100%;
+  margin-top: 25px;
+}
+
+#img-logo-pg6 {
+  width: 150px;
+
+  margin-top: 20px;
+}
+
+#cx-lista-pg6 {
+  width: 330px;
+  max-width: 100%;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#lista-pg6 {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: #a189b0;
+  font-size: 18px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #28093c;
+  text-align: left;
+  margin: 20px 0;
+  font-weight: 700;
+  margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+  position: relative; /* Para posicionar o ícone de verificação */
+  padding: 3px 0 2px 12px;
+}
+
+#lista-pg6:after {
+  content: "";
+  background-image: url("./img/Chek.png"); /* Substitua pela URL real da sua imagem */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -5px; /* Distância da direita */
+  top: -2; /* Alinhar ao topo */
+  width: 35px; /* Largura da imagem */
+  height: 35px; /* Altura da imagem */
 }
 
 #logo-imperio-pg7 {
   width: 200px;
   max-width: 100%;
+  margin-top: 50px;
 }
 
 #txt-titulo-pg7 {
@@ -440,11 +507,13 @@ body * {
   margin-top: 10px;
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 50px;
 }
 
 #img-campo-pg8 {
   width: 350px;
   max-width: 100%;
+  margin-top: 40px;
 }
 
 #txt-titulo-pg8 {
@@ -461,18 +530,19 @@ body * {
   font-weight: 400;
   margin-top: 30px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #img-camisa-frente-pg9 {
   width: 250px;
   max-width: 100%;
+  margin-top: 30px;
 }
 
 #txt-titulo-pg9 {
   font-size: var(--txt-titulo);
   color: white;
   font-weight: 400;
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -486,18 +556,20 @@ body * {
 #grafico-pg9 {
   width: 400px;
   max-width: 100%;
+  margin-bottom: 30px;
 }
 
 #logo-imperio-pg10 {
-  width: 220px;
+  width: 180px;
   max-width: 100%;
+  margin-top: 20px;
 }
 
 #txt-feedbak-pg10 {
   font-size: 50px;
   color: white;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -505,7 +577,6 @@ body * {
   font-size: var(--txt-principal);
   color: white;
   font-weight: 400;
-  margin-top: 10px;
   text-align: center;
   width: 200px;
   max-width: 100%;
@@ -514,387 +585,336 @@ body * {
 .img-depoimento {
   width: 360px;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #txt-titulo-pg12 {
   font-size: 40px;
   color: white;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
-@media screen and (max-width: 768px) {
-  #container {
-    max-width: 95%;
-  }
+#txt-titulo2-pg12 {
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: -5px;
+}
 
-  #txt-titulo1-pg6 {
-    font-size: var(--txt-principal);
-    color: white;
-    font-weight: 400;
-    margin-top: 10px;
-    text-align: center;
-  }
+.price-box {
+  background-image: linear-gradient(
+    0deg,
+    rgba(71, 38, 91, 0) 15%,
+    rgba(71, 38, 91, 0.611764705882353) 84%,
+    rgba(71, 38, 91, 0.611764705882353) 85%
+  );
+  border: 1px solid #c92091;
+  /color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento dentro da caixa */
+  width: 330px; /* Largura da caixa */
 
-  #txt-titulo2-pg6 {
-    font-size: 40px;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-  }
+  border-radius: 10px; /* Bordas arredondadas */
+  text-align: center; /* Alinhamento do texto */
+  position: relative; /* Para posicionamento absoluto dos elementos internos */
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.price-tag {
+  font-size: 50px; /* Tamanho da fonte para o preço */
+  font-weight: 800;
 
-  #img-produto-pg6 {
-    width: 350px;
-    max-width: 100%;
-    margin-top: 25px;
-  }
+  color: #ffff;
+}
 
-  #img-logo-pg6 {
-    width: 150px;
+#centes {
+  font-size: 30px; /* Tamanho da fonte para o preço */
+  font-weight: 800;
+  color: #ffff;
+}
+.discount {
+  letter-spacing: 2.5px;
+  width: 200px;
+  max-width: 100%;
+  font-size: 13px; /* Tamanho da fonte para a economia */
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 15px;
+  background-color: #9560b8;
+  border-radius: 25px; /* Bordas arredondadas para o destaque */
+  display: inline-block; /* Para aplicar padding e bordas */
+  padding: 1.5px 15px; /* Espaçamento dentro do destaque */
+  position: absolute; /* Posicionamento absoluto */
+  left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
+}
+.crossed-price {
+  text-decoration: line-through; /* Riscado para o preço anterior */
+  font-size: 15px; /* Tamanho da fonte para o preço anterior */
+  font-weight: 500;
+  color: #ffff;
+}
 
-    margin-top: 20px;
-  }
+#mes {
+  font-size: 35px; /* Tamanho da fonte para o preço anterior */
+  font-weight: 800;
+  color: #ffff;
+  margin-top: 10px;
+}
 
-  #cx-lista-pg6 {
-    width: 330px;
-    max-width: 100%;
-    align-items: center;
-    padding: 10px;
-  }
+#txt-complementar-pg6 {
+  font-size: 15px; /* Tamanho da fonte para o preço anterior */
+  font-weight: 500;
+  color: #ffff;
+}
 
-  #lista-pg6 {
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    background-color: #a189b0;
-    font-size: 18px;
-    letter-spacing: 0px;
-    text-transform: uppercase;
-    color: #28093c;
-    text-align: left;
-    margin: 20px 0;
-    font-weight: 700;
-    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
-    position: relative; /* Para posicionar o ícone de verificação */
-    padding: 3px 0 2px 12px;
-  }
+.best-choice {
+  background-image: linear-gradient(
+    0deg,
+    #c82090 0%,
+    #6a14d1 100%
+  ); /* Cor de fundo para a etiqueta 'Melhor Escolha' */
+  color: white; /* Cor do texto para a etiqueta */
+  padding: 5px 15px; /* Espaçamento dentro da etiqueta */
+  border-radius: 25px; /* Bordas arredondadas para a etiqueta */
+  position: absolute; /* Posicionamento absoluto */
+  top: -15px; /* Posicionar acima da caixa de preço */
+  left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
+  font-size: 14px; /* Tamanho da fonte para a etiqueta */
+  font-weight: 600; /* Negrito para a etiqueta */
+}
 
-  #lista-pg6:after {
-    content: "";
-    background-image: url("./img/Chek.png"); /* Substitua pela URL real da sua imagem */
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -5px; /* Distância da direita */
-    top: -2; /* Alinhar ao topo */
-    width: 35px; /* Largura da imagem */
-    height: 35px; /* Altura da imagem */
-  }
+#buton-pg12 {
+  width: 240px;
+  max-width: 100%;
+  margin-top: 40px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  background-image: linear-gradient(90deg, #391151 0%, #571283 100%);
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px; /* Adjust the border-radius as needed */
+}
 
-  .price-box {
-    background-image: linear-gradient(
-      0deg,
-      rgba(71, 38, 91, 0) 15%,
-      rgba(71, 38, 91, 0.611764705882353) 84%,
-      rgba(71, 38, 91, 0.611764705882353) 85%
-    );
-    border: 1px solid #c92091;
-    /color: white; /* Cor do texto */
-    padding: 20px; /* Espaçamento dentro da caixa */
-    width: 330px; /* Largura da caixa */
+.price-box-mensal {
+  background-image: linear-gradient(
+    0deg,
+    rgba(71, 38, 91, 0) 15%,
+    rgba(71, 38, 91, 0.611764705882353) 84%,
+    rgba(71, 38, 91, 0.611764705882353) 85%
+  );
+  color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento dentro da caixa */
+  width: 330px; /* Largura da caixa */
 
-    border-radius: 10px; /* Bordas arredondadas */
-    text-align: center; /* Alinhamento do texto */
-    position: relative; /* Para posicionamento absoluto dos elementos internos */
-    margin-top: 50px;
-  }
-  .price-tag {
-    font-size: 50px; /* Tamanho da fonte para o preço */
-    font-weight: 800;
+  border-radius: 10px; /* Bordas arredondadas */
+  text-align: center; /* Alinhamento do texto */
+  position: relative; /* Para posicionamento absoluto dos elementos internos */
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
 
-    color: #ffff;
-  }
+.price-box-trimestral {
+  background-image: linear-gradient(
+    0deg,
+    rgba(71, 38, 91, 0) 15%,
+    rgba(71, 38, 91, 0.611764705882353) 84%,
+    rgba(71, 38, 91, 0.611764705882353) 85%
+  );
+  color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento dentro da caixa */
+  width: 330px; /* Largura da caixa */
 
-  #centes {
-    font-size: 30px; /* Tamanho da fonte para o preço */
-    font-weight: 800;
-    color: #ffff;
-  }
-  .discount {
-    letter-spacing: 2.5px;
-    width: 200px;
-    max-width: 100%;
-    font-size: 13px; /* Tamanho da fonte para a economia */
-    color: #ffff;
-    font-weight: 500;
-    border-radius: 15px;
-    background-color: #9560b8;
-    border-radius: 25px; /* Bordas arredondadas para o destaque */
-    display: inline-block; /* Para aplicar padding e bordas */
-    padding: 1.5px 15px; /* Espaçamento dentro do destaque */
-    position: absolute; /* Posicionamento absoluto */
-    left: 50%; /* Centralizar horizontalmente */
-    transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
-  }
-  .crossed-price {
-    text-decoration: line-through; /* Riscado para o preço anterior */
-    font-size: 15px; /* Tamanho da fonte para o preço anterior */
-    font-weight: 500;
-    color: #ffff;
-  }
+  border-radius: 10px; /* Bordas arredondadas */
+  text-align: center; /* Alinhamento do texto */
+  position: relative; /* Para posicionamento absoluto dos elementos internos */
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
 
-  #mes {
-    font-size: 35px; /* Tamanho da fonte para o preço anterior */
-    font-weight: 800;
-    color: #ffff;
-    margin-top: 10px;
-  }
+#txt-principal-pg13 {
+  font-size: var(--txt-titulo);
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 700;
+  margin-top: 50px;
+}
 
-  #txt-complementar-pg6 {
-    font-size: 15px; /* Tamanho da fonte para o preço anterior */
-    font-weight: 500;
-    color: #ffff;
-  }
+#cx-lista-preço-pg13 {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
 
-  .best-choice {
-    background-image: linear-gradient(
-      0deg,
-      #c82090 0%,
-      #6a14d1 100%
-    ); /* Cor de fundo para a etiqueta 'Melhor Escolha' */
-    color: white; /* Cor do texto para a etiqueta */
-    padding: 5px 15px; /* Espaçamento dentro da etiqueta */
-    border-radius: 25px; /* Bordas arredondadas para a etiqueta */
-    position: absolute; /* Posicionamento absoluto */
-    top: -15px; /* Posicionar acima da caixa de preço */
-    left: 50%; /* Centralizar horizontalmente */
-    transform: translateX(-50%); /* Ajuste fino para centralização horizontal */
-    font-size: 14px; /* Tamanho da fonte para a etiqueta */
-    font-weight: 600; /* Negrito para a etiqueta */
-  }
+#lista-preço-pg13 {
+  color: #750db9;
+  font-weight: 400;
+  font-size: var(--txt-titulo);
+}
 
-  #buton-pg12 {
-    width: 240px;
-    max-width: 100%;
-    margin-top: 40px;
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-    background-image: linear-gradient(90deg, #391151 0%, #571283 100%);
-    color: white;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 30px; /* Adjust the border-radius as needed */
-  }
+#lista-preço-pg13 span {
+  color: #fff;
+  font-size: var(--txt-principal);
+}
 
-  .price-box-mensal {
-    background-image: linear-gradient(
-      0deg,
-      rgba(71, 38, 91, 0) 15%,
-      rgba(71, 38, 91, 0.611764705882353) 84%,
-      rgba(71, 38, 91, 0.611764705882353) 85%
-    );
-    color: white; /* Cor do texto */
-    padding: 20px; /* Espaçamento dentro da caixa */
-    width: 330px; /* Largura da caixa */
+#garantia-pg14 {
+  width: 250px;
+  max-width: 100%;
+  margin-top: 90px;
+}
 
-    border-radius: 10px; /* Bordas arredondadas */
-    text-align: center; /* Alinhamento do texto */
-    position: relative; /* Para posicionamento absoluto dos elementos internos */
-    margin-top: 50px;
-  }
+#txt-principal-garantia-pg14 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: -90px;
+  margin-right: 35px;
+  width: 120px;
+  letter-spacing: 2px;
+}
 
-  .price-box-trimestral {
-    background-image: linear-gradient(
-      0deg,
-      rgba(71, 38, 91, 0) 15%,
-      rgba(71, 38, 91, 0.611764705882353) 84%,
-      rgba(71, 38, 91, 0.611764705882353) 85%
-    );
-    color: white; /* Cor do texto */
-    padding: 20px; /* Espaçamento dentro da caixa */
-    width: 330px; /* Largura da caixa */
+#txt-titulo-pg4 {
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: left;
+  width: 200px;
+  margin-top: 25px;
+}
 
-    border-radius: 10px; /* Bordas arredondadas */
-    text-align: center; /* Alinhamento do texto */
-    position: relative; /* Para posicionamento absoluto dos elementos internos */
-    margin-top: 130px;
-  }
+#txt-principal-pg14 {
+  width: 310px;
+  margin-top: 18px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+#txt-titulo-pg15 {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 50px;
+}
 
-  #txt-principal-pg13 {
-    font-size: var(--txt-titulo);
-    color: white;
-    letter-spacing: 5px;
-    font-weight: 600;
-    margin-top: 20px;
-  }
+.faq-container {
+  margin: 20px 10px;
+  margin-bottom: 45px;
+}
 
-  #cx-lista-preço-pg13 {
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 380px;
-  }
+.faq-question {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Ajuste o padding esquerdo para dar espaço para a seta */
+  font-size: 13px;
+  text-align: left;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 8px;
+  position: relative;
+}
 
-  #lista-preço-pg13 {
-    color: #750db9;
-    font-weight: 400;
-    font-size: var(--txt-titulo);
-  }
+.faq-question::before {
+  content: "▼"; /* Usando uma seta fina que parece um "v" */
+  font-size: 15px; /* Ajuste conforme necessário */
+  position: absolute; /* Posicionamento absoluto dentro do .faq-question */
+  left: 10px; /* Distância da borda esquerda do .faq-question */
+  top: 50%; /* Alinha ao meio verticalmente */
+  transform: translateY(
+    -50%
+  ); /* Ajuste fino para centralizar exatamente ao meio */
+  color: white; /* Cor da seta */
+}
 
-  #lista-preço-pg13 span {
-    color: #fff;
-    font-size: var(--txt-principal);
-  }
+.faq-question.active::before {
+  content: "▲"; /* Muda para seta para cima quando ativo */
+}
 
-  #garantia-pg14 {
-    width: 250px;
-    max-width: 100%;
-  }
+.faq-answer {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  display: none;
+  padding: 10px;
+  margin-bottom: 8px;
+  margin-top: -5px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(100, 52, 129, 0) 15%,
+    rgba(71, 38, 91, 0.611764705882353) 84%,
+    rgba(71, 38, 91, 0.611764705882353) 85%
+  );
 
-  #txt-principal-garantia-pg14 {
-    font-weight: 600;
-    color: #fff;
-    font-size: 20px;
-    line-height: 1.2;
-    margin-top: -90px;
-    margin-right: 35px;
-    width: 120px;
-    letter-spacing: 2px;
-  }
+  border-left: 6px solid #c92091;
+}
 
-  #txt-titulo-pg4 {
-    font-weight: 400;
-    color: #fff;
-    font-size: 30px;
-    line-height: 1.2;
-    text-align: left;
-    width: 200px;
-    margin-top: 25px;
-  }
+/* Estilo opcional para adicionar um pouco de animação */
+.faq-answer.show {
+  display: block;
+  animation: fadeIn 0.5s;
+}
 
-  #txt-principal-pg14 {
-    width: 310px;
-    margin-top: 18px;
-    text-align: center;
-    font-weight: 400;
-    color: #fff;
-    font-size: 18px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  #txt-titulo-pg15 {
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
+  to {
+    opacity: 1;
   }
+}
 
-  .faq-container {
-    margin: 20px 10px;
-  }
+#logo-imperio-pg16 {
+  width: 250px;
+  margin-top: 100px;
+}
 
-  .faq-question {
-    width: 100%;
-    padding: 10px 10px 10px 35px; /* Ajuste o padding esquerdo para dar espaço para a seta */
-    font-size: 13px;
-    text-align: left;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 8px;
-    position: relative;
-  }
+#txt-principal-pg16 {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 25px;
+  width: 280px;
+}
+#rede-social-pg16 {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
 
-  .faq-question::before {
-    content: "▼"; /* Usando uma seta fina que parece um "v" */
-    font-size: 15px; /* Ajuste conforme necessário */
-    position: absolute; /* Posicionamento absoluto dentro do .faq-question */
-    left: 10px; /* Distância da borda esquerda do .faq-question */
-    top: 50%; /* Alinha ao meio verticalmente */
-    transform: translateY(
-      -50%
-    ); /* Ajuste fino para centralizar exatamente ao meio */
-    color: white; /* Cor da seta */
-  }
+#rede-social-pg16 img {
+  background-color: white;
+  width: 45px;
+  border-radius: 100px;
+  padding: 8px;
+}
 
-  .faq-question.active::before {
-    content: "▲"; /* Muda para seta para cima quando ativo */
-  }
-
-  .faq-answer {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 500;
-    display: none;
-    padding: 10px;
-    margin-bottom: 8px;
-    margin-top: -5px;
-    border-radius: 5px;
-    background-image: linear-gradient(
-      0deg,
-      rgba(100, 52, 129, 0) 15%,
-      rgba(71, 38, 91, 0.611764705882353) 84%,
-      rgba(71, 38, 91, 0.611764705882353) 85%
-    );
-
-    border-left: 6px solid #c92091;
-  }
-
-  /* Estilo opcional para adicionar um pouco de animação */
-  .faq-answer.show {
-    display: block;
-    animation: fadeIn 0.5s;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  #logo-imperio-pg16 {
-    width: 280px;
-  }
-
-  #txt-principal-pg16 {
-    text-align: center;
-    color: #fff;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 25px;
-    width: 280px;
-  }
-  #rede-social-pg16 {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-  }
-
-  #rede-social-pg16 img {
-    background-color: white;
-    width: 45px;
-    border-radius: 100px;
-    padding: 8px;
-  }
-
-  #txt-copy-pg16 {
-    width: 200px;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-    margin-top: 40px;
-    text-align: center;
-    justify-content: center;
-  }
+#txt-copy-pg16 {
+  width: 200px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
