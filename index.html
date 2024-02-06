@@ -320,7 +320,7 @@
         <div class="faq-item">
           <button class="faq-question">Vocês oferecem algum tipo de política de reembolso caso eu não esteja satisfeito?</button>
           <div class="faq-answer">
-            Sim, oferecemos um período de teste de 7 dias para que você possa experimentar nosso serviço de consultoria em apostas esportivas no mercado de empates. Se, por qualquer motivo, você não estiver satisfeito, temos uma política de reembolso disponível. Basta entrar em contato conosco e teremos o prazer de ajudá-lo com o processo de reembolso.
+            Sim, oferecemos um período de teste de 7 dias para que você possa experimentar nossa consultoria em apostas esportivas. Se, por qualquer motivo, você não estiver satisfeito, temos uma política de reembolso disponível. Basta entrar em contato conosco e teremos o prazer de ajudá-lo com o processo de reembolso.
           </div>
           </div>
         <div class="faq-item">
@@ -373,28 +373,31 @@
 
       </div>
         <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          var faqQuestions = document.querySelectorAll('.faq-question');
+          document.addEventListener('DOMContentLoaded', function() {
+            var faqQuestions = document.querySelectorAll('.faq-question');
 
-          faqQuestions.forEach(function(question) {
-            question.addEventListener('click', function() {
-              // Primeiro, feche todas as respostas
-              document.querySelectorAll('.faq-answer').forEach(function(answer) {
-                if (answer !== question.nextElementSibling) {
+            faqQuestions.forEach(function(question) {
+              question.addEventListener('click', function() {
+                // Fecha todas as respostas e remove a classe 'active' das outras perguntas
+                var currentlyActive = document.querySelector('.faq-question.active');
+                if (currentlyActive && currentlyActive !== this) {
+                  currentlyActive.classList.remove('active');
+                  currentlyActive.nextElementSibling.style.display = "none";
+                }
+
+                // Alterna a visibilidade da resposta atual e a classe 'active' da pergunta
+                var answer = this.nextElementSibling;
+                if (answer.style.display === "block") {
+                  this.classList.remove('active');
                   answer.style.display = "none";
+                } else {
+                  this.classList.add('active');
+                  answer.style.display = "block";
                 }
               });
-
-              // Então, toggle a resposta da pergunta clicada
-              var answer = this.nextElementSibling;
-              if (answer.style.display === "block") {
-                answer.style.display = "none";
-              } else {
-                answer.style.display = "block";
-              }
             });
           });
-        });
+
         </script>
 
           </div>
