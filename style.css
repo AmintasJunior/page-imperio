@@ -267,7 +267,7 @@ body * {
   color: white;
   font-weight: 300;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 
@@ -318,7 +318,7 @@ body * {
   width: 100%;
   max-width: 300px;
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-weight: 600;
   background: linear-gradient(to right, #49115e, #581172);
@@ -333,9 +333,9 @@ body * {
 }
 
 #titulo-pg4 img {
-  max-width: 250px;
+  max-width: 260px;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 #txt-principal-pg4 {
@@ -352,7 +352,7 @@ body * {
   font-weight: 400;
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #caixa-txt {
@@ -407,8 +407,7 @@ body * {
 
 #img-logo-pg6 {
   width: 150px;
-
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #cx-lista-pg6 {
@@ -511,7 +510,7 @@ body * {
 }
 
 #img-campo-pg8 {
-  width: 350px;
+  width: 320px;
   max-width: 100%;
   margin-top: 40px;
 }
@@ -536,7 +535,7 @@ body * {
 #img-camisa-frente-pg9 {
   width: 250px;
   max-width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #txt-titulo-pg9 {
@@ -583,7 +582,7 @@ body * {
 }
 
 .img-depoimento {
-  width: 360px;
+  width: 330px;
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -882,7 +881,7 @@ body * {
 
 #logo-imperio-pg16 {
   width: 250px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #txt-principal-pg16 {
@@ -916,5 +915,5 @@ body * {
   margin-top: 40px;
   text-align: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
