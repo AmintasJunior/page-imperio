@@ -81,7 +81,7 @@ body * {
 }
 
 #background-15 {
-  background-image: url("./img/bg-15.png"); /* Defina o segundo fundo desejado */
+  background-image: url("./img/bg-9git.png"); /* Defina o segundo fundo desejado */
 }
 
 #background-16 {
@@ -560,6 +560,7 @@ body * {
 #grafico-pg9 {
   width: 400px;
   max-width: 100%;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
