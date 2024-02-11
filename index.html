@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
 
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -382,39 +383,8 @@
             Nossos analistas buscam diariamente as melhores dicas de apostas em empates, mas em dias sem oportunidades favoráveis, optamos por preservar o capital e não enviar dicas, visando maximizar suas chances de sucesso e proteger seu capital.
           </div>
         </div>
-
-
-        </div> 
-
+        </div>
       </div>
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var faqQuestions = document.querySelectorAll('.faq-question');
-
-            faqQuestions.forEach(function(question) {
-              question.addEventListener('click', function() {
-                // Fecha todas as respostas e remove a classe 'active' das outras perguntas
-                var currentlyActive = document.querySelector('.faq-question.active');
-                if (currentlyActive && currentlyActive !== this) {
-                  currentlyActive.classList.remove('active');
-                  currentlyActive.nextElementSibling.style.display = "none";
-                }
-
-                // Alterna a visibilidade da resposta atual e a classe 'active' da pergunta
-                var answer = this.nextElementSibling;
-                if (answer.style.display === "block") {
-                  this.classList.remove('active');
-                  answer.style.display = "none";
-                } else {
-                  this.classList.add('active');
-                  answer.style.display = "block";
-                }
-              });
-            });
-          });
-
-        </script>
-
           </div>
         </div>
 
