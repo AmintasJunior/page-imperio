@@ -329,9 +329,6 @@ body * {
   padding: 0 10px 0 25px;
 }
 
-#pesquisa {
-  font-size: 30px;
-}
 
 #txt-principal-pg3 {
   font-size: var(--txt-principal);
