@@ -639,7 +639,7 @@
     rgba(71, 38, 91, 0.611764705882353) 85%
   );
   border: 1px solid #c92091;
-  /color: white; /* Cor do texto */
+ color: white; /* Cor do texto */
   padding: 20px; /* Espaçamento dentro da caixa */
   width: 330px; /* Largura da caixa */
 
